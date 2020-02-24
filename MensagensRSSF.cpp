@@ -86,3 +86,21 @@ void novaRequisicaoAtendida()
 {
     Serial.println("Nova requisição atendida com sucesso.");
 }
+
+void RodadaDeAmostrasNaN(int rodada, int amostras)
+{
+    Serial.print("NaN lançado em: ");
+    Serial.print(rodada);
+    Serial.print("/");
+    Serial.print(amostras);
+    Serial.println(".");
+}
+
+void RodadaDeAmostrasSucesso(int rodada, int amostras)
+{
+    Serial.print("Amostra coletada com sucesso: ");
+    Serial.print(rodada);
+    Serial.print("/");
+    Serial.print(amostras);
+    Serial.println(".");  
+}

@@ -15,5 +15,7 @@ void sucesso();
 void fimConexao();
 void exibirMonitoramento(float temperatura, float umidade, int radiacaoUV, int fumaca, int gasToxico, int fogo);
 void novaRequisicaoAtendida();
+void RodadaDeAmostrasNaN(int rodada, int amostras);
+void RodadaDeAmostrasSucesso(int rodada, int amostras);
 
 #endif
